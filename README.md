@@ -39,14 +39,14 @@ A working Instagram clone written in Flutter using Firebase / Firestore
 * [Flutter Shared Preferences]()
 * [Cached Network Image](https://github.com/renefloor/flutter_cached_network_image)
 
-## Getting started
+## Developer:
 
-#### 1. [Setup Flutter](https://flutter.dev/docs/get-started/install)
+#### 1. [Twitter](https://twitter.com/R_w_e_m_a)
 
 #### 2. Clone the repo
 
 ```sh
-$ git clone https://github.com/mdanics/fluttergram.git
+$ git clone https://github.com/rwema3/Fluttergram-App
 $ cd fluttergram/
 ```
 
