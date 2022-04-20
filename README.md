@@ -1,16 +1,6 @@
 # Fluttergram
 A working Instagram clone written in Flutter using Firebase / Firestore
-
-## Code Quality Disclaimer
-I built Fluttergram as a way to learn Flutter when it was still in Beta V1. At this time, Flutter was in its really early stages, and best practices were not yet established. As such, this repo **does not** reflect the current Flutter best practices and is not at a high code quality standard. That said, it still has merit in being a complete example of what can be done in Flutter. 
-
-# Demo
-[Download the release APK to try out Fluttergram](https://github.com/mdanics/fluttergram/raw/master/app-release.apk) 
-
-I update Fluttergram with new features and bugs fixes, but the apk may be behind master. Take a look at the [changelog](/CHANGELOG.md) to see the most recent additions to the apk.
-
 ## Features
-
  * Custom photo feed based on who you follow (using firebase cloud functions)
  * Post photo posts from camera or gallery
    * Like posts
