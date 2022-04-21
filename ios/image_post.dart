@@ -74,7 +74,6 @@ class ImagePost extends StatefulWidget {
         likes: this.likes,
         likeCount: getLikeCount(this.likes),
         ownerId: this.ownerId,
-  
  
    
   
