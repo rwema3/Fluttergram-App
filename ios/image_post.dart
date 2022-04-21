@@ -139,4 +139,5 @@ class _ImagePost extends State<ImagePost> {
           CachedNetworkImage(
             imageUrl: mediaUrl,
             fit: BoxFit.fitWidth,
+            placeholder: (context, url) => loadingPlaceHolder,
 
