@@ -103,9 +103,4 @@ class _ImagePost extends State<ImagePost> {
       this.username,
       this.location,
       this.description,
-      this.likes,
-      this.postId,
-      this.likeCount,
-      this.ownerId});
-
-  
+      this.lik
