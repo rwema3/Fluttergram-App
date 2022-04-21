@@ -308,6 +308,9 @@ class _ImagePost extends State<ImagePost> {
       "userProfileImg": currentUserModel.photoUrl,
       "mediaUrl": mediaUrl,
       "timestamp": DateTime.now(),
+      "postId": postId,
+    });
+  }
 
 
 
