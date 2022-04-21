@@ -176,4 +176,6 @@ class _ImagePost extends State<ImagePost> {
             return ListTile(
               leading: CircleAvatar(
                 backgroundImage: CachedNetworkImageProvider(snapshot.data.data()['photoUrl']),
+                backgroundColor: Colors.grey,
+              ),
 
