@@ -169,5 +169,4 @@ class _ImagePost extends State<ImagePost> {
         future: FirebaseFirestore.instance
             .collection('insta_users')
             .doc(ownerId)
-            .get(),
 
