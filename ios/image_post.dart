@@ -291,6 +291,9 @@ class _ImagePost extends State<ImagePost> {
         setState(() {
           showHeart = false;
         });
+      });
+    }
+  }
 
 
 
