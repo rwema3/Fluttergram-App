@@ -35,7 +35,7 @@ class ImagePost extends StatefulWidget {
       username: data['username'],
       location: data['location'],
       mediaUrl: data['mediaUrl'],
-      li
+      lik
     
        
       
