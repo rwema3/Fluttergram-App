@@ -63,7 +63,8 @@ class ImagePost extends StatefulWidget {
   final String location;
   final String description;
   final likes;
-  final St
+  final String postId;
+
         
         
         
