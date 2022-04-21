@@ -68,9 +68,9 @@ class ImagePost extends StatefulWidget {
 
   _ImagePost createState() => _ImagePost(
         mediaUrl: this.mediaUrl,
-        username: this.username
-        location: thi
-       
+        username: this.username,
+        location: this.location,
+        d 
       
         
  
