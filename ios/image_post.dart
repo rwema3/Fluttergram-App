@@ -231,7 +231,6 @@ class _ImagePost extends State<ImagePost> {
         Row(
           children: <Widget>[
             Container(
-              margin: const EdgeInsets.only(left: 20.0),
 
 
 
