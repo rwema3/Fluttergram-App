@@ -260,7 +260,6 @@ class _ImagePost extends State<ImagePost> {
     bool _liked = likes[userId] == true;
 
     if (_liked) {
-      print('removing like');
 
 
 
