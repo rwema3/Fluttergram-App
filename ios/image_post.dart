@@ -160,5 +160,4 @@ class _ImagePost extends State<ImagePost> {
     );
   }
 
-  buildPostHeader({String ownerId}) {
 
