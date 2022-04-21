@@ -206,6 +206,7 @@ class _ImagePost extends State<ImagePost> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
+        buildPostHeader(ownerId: ownerId),
 
 
 
