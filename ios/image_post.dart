@@ -287,6 +287,7 @@ class _ImagePost extends State<ImagePost> {
         likes[userId] = true;
         showHeart = true;
       });
+      Timer(const Duration(milliseconds: 2000), () {
 
 
 
