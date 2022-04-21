@@ -44,7 +44,6 @@ class ImagePost extends StatefulWidget {
 
   int getLikeCount(var likes) {
     if (likes == null) {
-      return 0;
     
  
 
