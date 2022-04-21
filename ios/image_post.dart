@@ -328,5 +328,6 @@ class ImagePostFromId extends StatelessWidget {
   const ImagePostFromId({this.id});
 
   getImagePost() async {
+    var document =
 
 
