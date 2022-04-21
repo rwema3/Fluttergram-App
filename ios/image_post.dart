@@ -337,4 +337,5 @@ class ImagePostFromId extends StatelessWidget {
   Widget build(BuildContext context) {
     return FutureBuilder(
         future: getImagePost(),
+        builder: (context, snapshot) {
 
