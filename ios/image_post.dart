@@ -11,7 +11,6 @@ import 'package:flare_flutter/flare_actor.dart';
 class ImagePost extends StatefulWidget {
   const ImagePost(
       {this.mediaUrl,
-      this.username,
        
       
     
