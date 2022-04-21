@@ -329,8 +329,5 @@ class ImagePostFromId extends StatelessWidget {
 
   getImagePost() async {
     var document =
-        await FirebaseFirestore.instance.collection('insta_posts').doc(id).get();
-    return ImagePost.fromDocument(document);
-  }
 
 
