@@ -318,6 +318,9 @@ class _ImagePost extends State<ImagePost> {
         .doc(ownerId)
         .collection("items")
         .doc(postId)
+        .delete();
+  }
+}
 
 
 
