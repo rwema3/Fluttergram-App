@@ -232,6 +232,8 @@ class _ImagePost extends State<ImagePost> {
           children: <Widget>[
             Container(
               margin: const EdgeInsets.only(left: 20.0),
+              child: Text(
+                "$likeCount likes",
 
 
 
