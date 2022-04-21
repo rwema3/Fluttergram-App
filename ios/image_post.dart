@@ -59,7 +59,7 @@ class ImagePost extends StatefulWidget {
   }
 
   final String mediaUrl;
-  fin
+  fi
   
         
         
