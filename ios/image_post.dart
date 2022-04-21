@@ -178,4 +178,5 @@ class _ImagePost extends State<ImagePost> {
                 backgroundImage: CachedNetworkImageProvider(snapshot.data.data()['photoUrl']),
                 backgroundColor: Colors.grey,
               ),
+              title: GestureDetector(
 
