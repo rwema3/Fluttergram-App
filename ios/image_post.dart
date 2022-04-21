@@ -22,7 +22,9 @@ class ImagePost extends StatefulWidget {
     return ImagePost(
       username: document['username'],
       location: document['location'],
-      
+      mediaUrl: document['mediaUrl'],
+      likes: documen
+    
        
       
       
