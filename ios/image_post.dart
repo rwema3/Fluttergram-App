@@ -121,4 +121,3 @@ class _ImagePost extends State<ImagePost> {
 
     return GestureDetector(
         child: Icon(
-          icon,
