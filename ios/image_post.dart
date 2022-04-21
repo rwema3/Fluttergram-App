@@ -108,4 +108,4 @@ class _ImagePost extends State<ImagePost> {
       this.likeCount,
       this.ownerId});
 
-  G
+  GestureDetector buildLikeIcon
