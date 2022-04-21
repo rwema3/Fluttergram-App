@@ -46,8 +46,8 @@ class ImagePost extends StatefulWidget {
     if (likes == null) {
       return 0;
     }
-// issue is belo
-
+// issue is below
+  
   
     
     
