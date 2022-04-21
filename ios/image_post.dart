@@ -140,6 +140,4 @@ class _ImagePost extends State<ImagePost> {
             imageUrl: mediaUrl,
             fit: BoxFit.fitWidth,
             placeholder: (context, url) => loadingPlaceHolder,
-            errorWidget: (context, url, error) => Icon(Icons.error),
-          ),
 
