@@ -354,4 +354,3 @@ void goToComments(
       .push(MaterialPageRoute<bool>(builder: (BuildContext context) {
     return CommentScreen(
       postId: postId,
-      postOwner: ownerId,
