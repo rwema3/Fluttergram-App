@@ -116,3 +116,6 @@ class _ImagePost extends State<ImagePost> {
       color = Colors.pink;
       icon = FontAwesomeIcons.solidHeart;
     } else {
+      icon = FontAwesomeIcons.heart;
+    }
+
