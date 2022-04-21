@@ -123,4 +123,5 @@ class _ImagePost extends State<ImagePost> {
         child: Icon(
           icon,
           size: 25.0,
-z
+          color: color,
+        ),
