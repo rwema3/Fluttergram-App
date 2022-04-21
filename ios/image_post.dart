@@ -302,6 +302,7 @@ class _ImagePost extends State<ImagePost> {
         .collection("items")
         .doc(postId)
         .set({
+      "username": currentUserModel.username,
 
 
 
