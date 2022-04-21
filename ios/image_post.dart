@@ -207,7 +207,6 @@ class _ImagePost extends State<ImagePost> {
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         buildPostHeader(ownerId: ownerId),
-        buildLikeableImage(),
 
 
 
