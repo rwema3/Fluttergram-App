@@ -77,7 +77,6 @@ class ImagePost extends StatefulWidget {
         postId: this.postId,
       );
 }
-
  
    
   
