@@ -138,5 +138,4 @@ class _ImagePost extends State<ImagePost> {
         children: <Widget>[
           CachedNetworkImage(
             imageUrl: mediaUrl,
-            fit: BoxFit.fitWidth,
 
