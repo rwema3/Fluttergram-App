@@ -342,5 +342,4 @@ class ImagePostFromId extends StatelessWidget {
             return Container(
                 alignment: FractionalOffset.center,
                 padding: const EdgeInsets.only(top: 10.0),
-                child: CircularProgressIndicator());
 
