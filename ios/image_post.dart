@@ -50,7 +50,7 @@ class ImagePost extends StatefulWidget {
     var vals = likes.values;
     int count = 0;
     for (var val in vals) {
-      if (val == tru
+      if (val == tr
          
       
     
