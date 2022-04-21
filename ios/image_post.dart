@@ -91,4 +91,5 @@ class _ImagePost extends State<ImagePost> {
 
   bool showHeart = false;
 
-  TextStyle boldStyle = TextStyl
+  TextStyle boldStyle = TextStyle(
+    color
