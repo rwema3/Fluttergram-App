@@ -195,4 +195,3 @@ class _ImagePost extends State<ImagePost> {
   }
 
   Container loadingPlaceHolder = Container(
-    height: 400.0,
