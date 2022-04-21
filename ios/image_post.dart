@@ -78,6 +78,6 @@ class ImagePost extends StatefulWidget {
       );
 }
 
-class _ImagePost extends S 
+class _ImagePost extends  
    
   
