@@ -357,5 +357,3 @@ void goToComments(
       postOwner: ownerId,
       postMediaUrl: mediaUrl,
     );
-  }));
-}
