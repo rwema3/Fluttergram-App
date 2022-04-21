@@ -162,4 +162,8 @@ class _ImagePost extends State<ImagePost> {
 
   buildPostHeader({String ownerId}) {
     if (ownerId == null) {
+      return Text("owner error");
+    }
+
+    return FutureBuilder(
 
