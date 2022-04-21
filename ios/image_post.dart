@@ -60,7 +60,7 @@ class ImagePost extends StatefulWidget {
 
   final String mediaUrl;
   final String username;
-  final Str
+  final St
         
         
         
