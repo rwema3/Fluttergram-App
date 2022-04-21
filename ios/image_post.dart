@@ -224,10 +224,6 @@ class _ImagePost extends State<ImagePost> {
                       context: context,
                       postId: postId,
                       ownerId: ownerId,
-                      mediaUrl: mediaUrl);
-                }),
-          ],
-        ),
 
 
 
