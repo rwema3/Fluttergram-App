@@ -282,6 +282,7 @@ class _ImagePost extends State<ImagePost> {
       addActivityFeedItem();
 
       setState(() {
+        likeCount = likeCount + 1;
 
 
 
