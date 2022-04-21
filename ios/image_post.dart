@@ -210,7 +210,6 @@ class _ImagePost extends State<ImagePost> {
         buildLikeableImage(),
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
 
 
 
