@@ -66,7 +66,7 @@ class ImagePost extends StatefulWidget {
   final String postId;
   final String ownerId;
 
-  _ImagePos
+  _ImagePo
         
         
         
