@@ -165,5 +165,4 @@ class _ImagePost extends State<ImagePost> {
       return Text("owner error");
     }
 
-    return FutureBuilder(
 
