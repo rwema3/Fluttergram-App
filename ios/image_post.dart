@@ -39,7 +39,7 @@ class ImagePost extends StatefulWidget {
       description: data['description'],
       ownerId: data['ownerId'],
       postId: data['postId'],
-    
+    )
   
 
   
