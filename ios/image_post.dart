@@ -230,6 +230,7 @@ class _ImagePost extends State<ImagePost> {
         ),
         Row(
           children: <Widget>[
+            Container(
 
 
 
