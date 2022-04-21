@@ -103,3 +103,4 @@ class _ImagePost extends State<ImagePost> {
       this.username,
       this.location,
       this.description,
+      
