@@ -285,6 +285,8 @@ class _ImagePost extends State<ImagePost> {
         likeCount = likeCount + 1;
         liked = true;
         likes[userId] = true;
+        showHeart = true;
+      });
 
 
 
