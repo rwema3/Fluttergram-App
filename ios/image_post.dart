@@ -200,5 +200,3 @@ class _ImagePost extends State<ImagePost> {
   );
 
   @override
-  Widget build(BuildContext context) {
-
