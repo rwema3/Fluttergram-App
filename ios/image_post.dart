@@ -223,6 +223,7 @@ class _ImagePost extends State<ImagePost> {
                   goToComments(
                       context: context,
                       postId: postId,
+                      ownerId: ownerId,
 
 
 
