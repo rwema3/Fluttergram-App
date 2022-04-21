@@ -127,5 +127,3 @@ class _ImagePost extends State<ImagePost> {
         ),
         onTap: () {
           _likePost(postId);
-
-
