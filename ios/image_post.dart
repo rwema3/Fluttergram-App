@@ -355,5 +355,3 @@ void goToComments(
     return CommentScreen(
       postId: postId,
       postOwner: ownerId,
-      postMediaUrl: mediaUrl,
-    );
