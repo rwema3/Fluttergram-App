@@ -42,7 +42,7 @@ class ImagePost extends StatefulWidget {
     );
   }
 
-  int getLikeCo
+  int getLikeC
      
     
  
