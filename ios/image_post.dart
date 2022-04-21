@@ -47,7 +47,7 @@ class ImagePost extends StatefulWidget {
       return 0;
     }
 // issue is below
-    var vals = likes.value
+    var vals = likes.values
   
     
     
