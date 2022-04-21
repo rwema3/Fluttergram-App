@@ -279,7 +279,6 @@ class _ImagePost extends State<ImagePost> {
       print('liking');
       reference.doc(postId).update({'likes.$userId': true});
 
-      addActivityFeedItem();
 
 
 
