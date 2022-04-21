@@ -12,6 +12,7 @@ class ImagePost extends StatefulWidget {
   const ImagePost(
       {this.mediaUrl,
       this.username,
+      this.location,
        
       
     
