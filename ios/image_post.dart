@@ -28,7 +28,7 @@ class ImagePost extends StatefulWidget {
       postId: document.id,
       ownerId: document['ownerId'],
     );
-  
+
     
        
       
