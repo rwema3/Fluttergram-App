@@ -30,7 +30,7 @@ class ImagePost extends StatefulWidget {
     );
   }
 
-  fac
+  fact
     
        
       
