@@ -218,6 +218,8 @@ class _ImagePost extends State<ImagePost> {
                 child: const Icon(
                   FontAwesomeIcons.comment,
                   size: 25.0,
+                ),
+                onTap: () {
 
 
 
