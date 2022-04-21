@@ -89,4 +89,4 @@ class _ImagePost extends State<ImagePost> {
   bool liked;
   final String ownerId;
 
-  boo
+  bool sh
