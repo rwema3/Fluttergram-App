@@ -201,6 +201,7 @@ class _ImagePost extends State<ImagePost> {
 
   @override
   Widget build(BuildContext context) {
+    liked = (likes[googleSignIn.currentUser.id.toString()] == true);
 
 
 
