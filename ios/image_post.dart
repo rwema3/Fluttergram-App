@@ -248,6 +248,12 @@ class _ImagePost extends State<ImagePost> {
                   "$username ",
                   style: boldStyle,
                 )),
+            Expanded(child: Text(description)),
+          ],
+        )
+      ],
+    );
+  }
 
 
 
