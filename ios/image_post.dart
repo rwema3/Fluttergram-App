@@ -180,4 +180,8 @@ class _ImagePost extends State<ImagePost> {
               ),
               title: GestureDetector(
                 child: Text(snapshot.data.data()['username'], style: boldStyle),
+                onTap: () {
+                  openProfile(context, ownerId);
+                },
+              ),
 
