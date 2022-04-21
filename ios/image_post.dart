@@ -134,5 +134,4 @@ class _ImagePost extends State<ImagePost> {
     return GestureDetector(
       onDoubleTap: () => _likePost(postId),
       child: Stack(
-        alignment: Alignment.center,
 
