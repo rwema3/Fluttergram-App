@@ -348,4 +348,3 @@ class ImagePostFromId extends StatelessWidget {
   }
 }
 
-void goToComments(
