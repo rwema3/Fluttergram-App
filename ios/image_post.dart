@@ -213,6 +213,7 @@ class _ImagePost extends State<ImagePost> {
           children: <Widget>[
             Padding(padding: const EdgeInsets.only(left: 20.0, top: 40.0)),
             buildLikeIcon(),
+            Padding(padding: const EdgeInsets.only(right: 20.0)),
 
 
 
