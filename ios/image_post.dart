@@ -19,6 +19,7 @@ class ImagePost extends StatefulWidget {
       this.ownerId});
 
   factory ImagePost.fromDocument(DocumentSnapshot document) {
+    return ImagePost(
       
        
       
