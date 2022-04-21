@@ -262,7 +262,6 @@ class _ImagePost extends State<ImagePost> {
     if (_liked) {
       print('removing like');
       reference.doc(postId).update({
-        'likes.$userId': false
 
 
 
