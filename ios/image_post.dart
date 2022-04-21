@@ -113,4 +113,3 @@ class _ImagePost extends State<ImagePost> {
     IconData icon;
 
     if (liked) {
-      color = Colors.pink;
