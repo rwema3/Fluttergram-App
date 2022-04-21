@@ -199,3 +199,4 @@ class _ImagePost extends State<ImagePost> {
     child: Center(child: CircularProgressIndicator()),
   );
 
+  @override
