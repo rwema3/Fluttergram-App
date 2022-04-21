@@ -137,4 +137,5 @@ class _ImagePost extends State<ImagePost> {
         alignment: Alignment.center,
         children: <Widget>[
           CachedNetworkImage(
+            imageUrl: mediaUrl,
 
