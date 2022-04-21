@@ -267,7 +267,6 @@ class _ImagePost extends State<ImagePost> {
       });
 
       setState(() {
-        likeCount = likeCount - 1;
 
 
 
