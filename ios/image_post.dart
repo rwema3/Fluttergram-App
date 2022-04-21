@@ -299,6 +299,7 @@ class _ImagePost extends State<ImagePost> {
     FirebaseFirestore.instance
         .collection("insta_a_feed")
         .doc(ownerId)
+        .collection("items")
 
 
 
