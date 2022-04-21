@@ -38,7 +38,7 @@ class ImagePost extends StatefulWidget {
       likes: data['likes'],
       description: data['description'],
       ownerId: data['ownerId'],
-      pos
+      post
     
   
 
