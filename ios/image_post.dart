@@ -272,6 +272,8 @@ class _ImagePost extends State<ImagePost> {
         likes[userId] = false;
       });
 
+      removeActivityFeedItem();
+    }
 
 
 
