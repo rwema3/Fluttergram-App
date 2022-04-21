@@ -194,4 +194,3 @@ class _ImagePost extends State<ImagePost> {
         });
   }
 
-  Container loadingPlaceHolder = Container(
