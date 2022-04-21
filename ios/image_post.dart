@@ -143,4 +143,5 @@ class _ImagePost extends State<ImagePost> {
             errorWidget: (context, url, error) => Icon(Icons.error),
           ),
           showHeart
+              ? Positioned(
 
