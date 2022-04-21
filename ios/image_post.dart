@@ -275,6 +275,7 @@ class _ImagePost extends State<ImagePost> {
       removeActivityFeedItem();
     }
 
+    if (!_liked) {
 
 
 
