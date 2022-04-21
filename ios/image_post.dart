@@ -136,5 +136,4 @@ class _ImagePost extends State<ImagePost> {
       child: Stack(
         alignment: Alignment.center,
         children: <Widget>[
-          CachedNetworkImage(
 
