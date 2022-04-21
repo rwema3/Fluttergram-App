@@ -55,7 +55,7 @@ class ImagePost extends StatefulWidget {
       }
     }
 
-    return coun
+    return cou
 
   
         
