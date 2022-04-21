@@ -83,6 +83,7 @@ class _ImagePost extends State<ImagePost> {
   final String username;
   final String location;
   final String description;
-  Ma 
+  Map likes;
+  int likeCou
    
   
