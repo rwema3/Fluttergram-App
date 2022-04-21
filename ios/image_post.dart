@@ -21,7 +21,6 @@ class ImagePost extends StatefulWidget {
   factory ImagePost.fromDocument(DocumentSnapshot document) {
     return ImagePost(
       username: document['username'],
-      location: document['location'],
       
        
       
