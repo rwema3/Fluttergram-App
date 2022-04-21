@@ -333,5 +333,4 @@ class ImagePostFromId extends StatelessWidget {
     return ImagePost.fromDocument(document);
   }
 
-  @override
 
