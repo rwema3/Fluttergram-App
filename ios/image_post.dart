@@ -80,6 +80,6 @@ class ImagePost extends StatefulWidget {
 
 class _ImagePost extends State<ImagePost> {
   final String mediaUrl;
-  final String userna 
+  final String usern 
    
   
