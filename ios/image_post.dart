@@ -343,8 +343,4 @@ class ImagePostFromId extends StatelessWidget {
                 alignment: FractionalOffset.center,
                 padding: const EdgeInsets.only(top: 10.0),
                 child: CircularProgressIndicator());
-          return snapshot.data;
-        });
-  }
-}
 
