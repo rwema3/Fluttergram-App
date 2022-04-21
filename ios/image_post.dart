@@ -204,6 +204,8 @@ class _ImagePost extends State<ImagePost> {
     liked = (likes[googleSignIn.currentUser.id.toString()] == true);
 
     return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[
 
 
 
