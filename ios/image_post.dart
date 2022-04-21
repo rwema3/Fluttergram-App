@@ -119,3 +119,5 @@ class _ImagePost extends State<ImagePost> {
       icon = FontAwesomeIcons.heart;
     }
 
+    return GestureDetector(
+        child: Icon(
