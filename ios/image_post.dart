@@ -87,5 +87,6 @@ class _ImagePost extends State<ImagePost> {
   int likeCount;
   final String postId;
   bool liked;
-  final String ownerI
+  final String ownerId;
+
   boo
