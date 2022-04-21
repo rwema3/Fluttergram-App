@@ -203,7 +203,6 @@ class _ImagePost extends State<ImagePost> {
   Widget build(BuildContext context) {
     liked = (likes[googleSignIn.currentUser.id.toString()] == true);
 
-    return Column(
 
 
 
