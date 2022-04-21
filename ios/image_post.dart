@@ -323,6 +323,7 @@ class _ImagePost extends State<ImagePost> {
 }
 
 class ImagePostFromId extends StatelessWidget {
+  final String id;
 
 
 
