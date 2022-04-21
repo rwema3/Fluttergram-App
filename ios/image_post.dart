@@ -353,3 +353,9 @@ void goToComments(
   Navigator.of(context)
       .push(MaterialPageRoute<bool>(builder: (BuildContext context) {
     return CommentScreen(
+      postId: postId,
+      postOwner: ownerId,
+      postMediaUrl: mediaUrl,
+    );
+  }));
+}
