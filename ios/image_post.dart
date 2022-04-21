@@ -256,6 +256,7 @@ class _ImagePost extends State<ImagePost> {
   }
 
   void _likePost(String postId2) {
+    var userId = googleSignIn.currentUser.id;
 
 
 
