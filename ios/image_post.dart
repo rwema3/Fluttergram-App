@@ -114,4 +114,4 @@ class _ImagePost extends State<ImagePost> {
 
     if (liked) {
       color = Colors.pink;
-s
+      icon = FontAwesomeIcons.solidHeart;
