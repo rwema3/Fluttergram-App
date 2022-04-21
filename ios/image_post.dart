@@ -135,5 +135,4 @@ class _ImagePost extends State<ImagePost> {
       onDoubleTap: () => _likePost(postId),
       child: Stack(
         alignment: Alignment.center,
-        children: <Widget>[
 
