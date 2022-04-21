@@ -108,4 +108,6 @@ class _ImagePost extends State<ImagePost> {
       this.likeCount,
       this.ownerId});
 
-  GestureDetector buildLikeIcon
+  GestureDetector buildLikeIcon() {
+    Color color;
+    IconData icon
