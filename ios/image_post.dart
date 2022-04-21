@@ -215,7 +215,6 @@ class _ImagePost extends State<ImagePost> {
             buildLikeIcon(),
             Padding(padding: const EdgeInsets.only(right: 20.0)),
             GestureDetector(
-                child: const Icon(
 
 
 
