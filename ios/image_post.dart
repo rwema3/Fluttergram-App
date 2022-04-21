@@ -96,9 +96,3 @@ class _ImagePost extends State<ImagePost> {
     fontWeight: FontWeight.bold,
   );
 
-  var reference = FirebaseFirestore.instance.collection('insta_posts');
-
-  _ImagePost(
-      {this.mediaUrl,
-      this.username,
-  
