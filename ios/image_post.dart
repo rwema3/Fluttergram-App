@@ -9,7 +9,6 @@ import 'comment_screen.dart';
 import 'package:flare_flutter/flare_actor.dart';
 
 class ImagePost extends StatefulWidget {
-  const ImagePost(
        
       
     
