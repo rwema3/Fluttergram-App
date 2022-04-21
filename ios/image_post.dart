@@ -179,4 +179,5 @@ class _ImagePost extends State<ImagePost> {
                 backgroundColor: Colors.grey,
               ),
               title: GestureDetector(
+                child: Text(snapshot.data.data()['username'], style: boldStyle),
 
