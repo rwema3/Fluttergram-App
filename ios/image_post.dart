@@ -150,4 +150,14 @@ class _ImagePost extends State<ImagePost> {
                     child:  Opacity(
                         opacity: 0.85,
                         child: FlareActor("assets/flare/Like.flr",
+                          animation: "Like",
+                        )),
+                  ),
+                )
+              : Container()
+        ],
+      ),
+    );
+  }
+
 
