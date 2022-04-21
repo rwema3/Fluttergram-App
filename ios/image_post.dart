@@ -212,7 +212,6 @@ class _ImagePost extends State<ImagePost> {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Padding(padding: const EdgeInsets.only(left: 20.0, top: 40.0)),
-            buildLikeIcon(),
 
 
 
