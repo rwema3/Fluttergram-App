@@ -340,4 +340,5 @@ class ImagePostFromId extends StatelessWidget {
         builder: (context, snapshot) {
           if (!snapshot.hasData)
             return Container(
+                alignment: FractionalOffset.center,
 
