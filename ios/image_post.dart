@@ -33,7 +33,7 @@ class ImagePost extends StatefulWidget {
   factory ImagePost.fromJSON(Map data) {
     return ImagePost(
       username: data['username'],
-      location: data['loca
+      location: data['locat
       
       
     
