@@ -196,6 +196,3 @@ class _ImagePost extends State<ImagePost> {
 
   Container loadingPlaceHolder = Container(
     height: 400.0,
-    child: Center(child: CircularProgressIndicator()),
-  );
-
