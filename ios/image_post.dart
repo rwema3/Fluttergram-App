@@ -313,7 +313,6 @@ class _ImagePost extends State<ImagePost> {
   }
 
   void removeActivityFeedItem() {
-    FirebaseFirestore.instance
 
 
 
