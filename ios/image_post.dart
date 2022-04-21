@@ -14,6 +14,7 @@ class ImagePost extends StatefulWidget {
       this.username,
       this.location,
       this.description,
+      this.likes,
        
       
     
