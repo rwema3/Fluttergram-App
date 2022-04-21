@@ -276,6 +276,7 @@ class _ImagePost extends State<ImagePost> {
     }
 
     if (!_liked) {
+      print('liking');
 
 
 
