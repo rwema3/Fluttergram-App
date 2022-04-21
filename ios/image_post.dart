@@ -217,6 +217,7 @@ class _ImagePost extends State<ImagePost> {
             GestureDetector(
                 child: const Icon(
                   FontAwesomeIcons.comment,
+                  size: 25.0,
 
 
 
