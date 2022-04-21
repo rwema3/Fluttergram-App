@@ -245,6 +245,7 @@ class _ImagePost extends State<ImagePost> {
             Container(
                 margin: const EdgeInsets.only(left: 20.0),
                 child: Text(
+                  "$username ",
 
 
 
