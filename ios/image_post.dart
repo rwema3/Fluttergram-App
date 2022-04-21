@@ -338,5 +338,4 @@ class ImagePostFromId extends StatelessWidget {
     return FutureBuilder(
         future: getImagePost(),
         builder: (context, snapshot) {
-          if (!snapshot.hasData)
 
