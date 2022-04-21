@@ -30,7 +30,7 @@ class ImagePost extends StatefulWidget {
     );
   }
 
-  factory ImagePost.fromJSON(M
+  factory ImagePost.fromJSON(Ma
     
        
       
