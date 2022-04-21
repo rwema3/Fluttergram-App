@@ -67,7 +67,7 @@ class ImagePost extends StatefulWidget {
   final String ownerId;
 
   _ImagePost createState() => _ImagePost(
-        mediaUrl
+        mediaUrl: this.mediaU
         
         
        
