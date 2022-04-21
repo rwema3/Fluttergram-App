@@ -175,5 +175,4 @@ class _ImagePost extends State<ImagePost> {
           if (snapshot.data != null) {
             return ListTile(
               leading: CircleAvatar(
-                backgroundImage: CachedNetworkImageProvider(snapshot.data.data()['photoUrl']),
 
