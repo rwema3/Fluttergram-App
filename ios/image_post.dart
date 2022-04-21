@@ -110,4 +110,5 @@ class _ImagePost extends State<ImagePost> {
 
   GestureDetector buildLikeIcon() {
     Color color;
-    IconData icon
+    IconData icon;
+
