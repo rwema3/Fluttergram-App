@@ -42,7 +42,7 @@ class ImagePost extends StatefulWidget {
     );
   }
 
-  int getLikeCount(var l
+  int getLikeCount(var li
      
     
  
