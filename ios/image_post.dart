@@ -283,8 +283,6 @@ class _ImagePost extends State<ImagePost> {
 
       setState(() {
         likeCount = likeCount + 1;
-        liked = true;
-        likes[userId] = true;
 
 
 
