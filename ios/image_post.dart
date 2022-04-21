@@ -30,7 +30,7 @@ class ImagePost extends StatefulWidget {
     );
   }
 
-  factory ImagePos
+  factory ImagePost
     
        
       
