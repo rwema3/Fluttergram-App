@@ -295,7 +295,6 @@ class _ImagePost extends State<ImagePost> {
     }
   }
 
-  void addActivityFeedItem() {
 
 
 
