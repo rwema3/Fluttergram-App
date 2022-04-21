@@ -325,6 +325,7 @@ class _ImagePost extends State<ImagePost> {
 class ImagePostFromId extends StatelessWidget {
   final String id;
 
+  const ImagePostFromId({this.id});
 
 
 
