@@ -18,6 +18,7 @@ class ImagePost extends StatefulWidget {
       this.postId,
       this.ownerId});
 
+  factory ImagePost.fromDocument(DocumentSnapshot document) {
       
        
       
