@@ -93,4 +93,4 @@ class _ImagePost extends State<ImagePost> {
 
   TextStyle boldStyle = TextStyle(
     color: Colors.black,
-    fontWeight: FontWeight.bo
+    fontWeight: FontWeight.bold,
