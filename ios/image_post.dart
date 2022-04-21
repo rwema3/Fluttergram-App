@@ -303,7 +303,6 @@ class _ImagePost extends State<ImagePost> {
         .doc(postId)
         .set({
       "username": currentUserModel.username,
-      "userId": currentUserModel.id,
 
 
 
