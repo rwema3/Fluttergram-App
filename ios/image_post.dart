@@ -246,16 +246,7 @@ class _ImagePost extends State<ImagePost> {
                 margin: const EdgeInsets.only(left: 20.0),
                 child: Text(
                   "$username ",
-                  style: boldStyle,
-                )),
-            Expanded(child: Text(description)),
-          ],
-        )
-      ],
-    );
-  }
 
-  void _likePost(String postId2) {
 
 
 
