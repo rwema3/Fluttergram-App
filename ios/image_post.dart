@@ -72,7 +72,7 @@ class ImagePost extends StatefulWidget {
         location: this.location,
         description: this.description,
         likes: this.likes,
-        l
+        
  
    
   
