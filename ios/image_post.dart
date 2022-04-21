@@ -300,6 +300,7 @@ class _ImagePost extends State<ImagePost> {
         .collection("insta_a_feed")
         .doc(ownerId)
         .collection("items")
+        .doc(postId)
 
 
 
