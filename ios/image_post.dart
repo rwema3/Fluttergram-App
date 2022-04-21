@@ -349,4 +349,3 @@ class ImagePostFromId extends StatelessWidget {
 }
 
 void goToComments(
-    {BuildContext context, String postId, String ownerId, String mediaUrl}) {
