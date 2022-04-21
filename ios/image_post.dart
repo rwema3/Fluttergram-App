@@ -208,6 +208,7 @@ class _ImagePost extends State<ImagePost> {
       children: <Widget>[
         buildPostHeader(ownerId: ownerId),
         buildLikeableImage(),
+        Row(
 
 
 
