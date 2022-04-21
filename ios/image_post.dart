@@ -76,7 +76,7 @@ class ImagePost extends StatefulWidget {
         ownerId: this.ownerId,
         postId: this.postId,
       );
-}
+
  
    
   
