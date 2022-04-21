@@ -173,5 +173,4 @@ class _ImagePost extends State<ImagePost> {
         builder: (context, snapshot) {
 
           if (snapshot.data != null) {
-            return ListTile(
 
