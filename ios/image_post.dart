@@ -81,6 +81,7 @@ class ImagePost extends StatefulWidget {
 class _ImagePost extends State<ImagePost> {
   final String mediaUrl;
   final String username;
-  final String loc 
+  final String location;
+  final String descrip 
    
   
