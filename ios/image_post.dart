@@ -296,7 +296,6 @@ class _ImagePost extends State<ImagePost> {
   }
 
   void addActivityFeedItem() {
-    FirebaseFirestore.instance
 
 
 
