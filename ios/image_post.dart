@@ -209,7 +209,6 @@ class _ImagePost extends State<ImagePost> {
         buildPostHeader(ownerId: ownerId),
         buildLikeableImage(),
         Row(
-          mainAxisAlignment: MainAxisAlignment.start,
 
 
 
