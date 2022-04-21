@@ -142,5 +142,4 @@ class _ImagePost extends State<ImagePost> {
             placeholder: (context, url) => loadingPlaceHolder,
             errorWidget: (context, url, error) => Icon(Icons.error),
           ),
-          showHeart
 
