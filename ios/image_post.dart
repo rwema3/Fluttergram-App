@@ -255,6 +255,7 @@ class _ImagePost extends State<ImagePost> {
     );
   }
 
+  void _likePost(String postId2) {
 
 
 
