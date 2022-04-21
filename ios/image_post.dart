@@ -216,7 +216,6 @@ class _ImagePost extends State<ImagePost> {
             Padding(padding: const EdgeInsets.only(right: 20.0)),
             GestureDetector(
                 child: const Icon(
-                  FontAwesomeIcons.comment,
 
 
 
