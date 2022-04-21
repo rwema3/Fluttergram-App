@@ -277,7 +277,6 @@ class _ImagePost extends State<ImagePost> {
 
     if (!_liked) {
       print('liking');
-      reference.doc(postId).update({'likes.$userId': true});
 
 
 
