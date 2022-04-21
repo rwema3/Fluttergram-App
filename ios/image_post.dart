@@ -240,6 +240,7 @@ class _ImagePost extends State<ImagePost> {
           ],
         ),
         Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
 
 
 
