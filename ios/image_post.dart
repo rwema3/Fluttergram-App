@@ -147,4 +147,5 @@ class _ImagePost extends State<ImagePost> {
                   child: Container(
                     width: 100,
                     height: 100,
+                    child:  Opacity(
 
