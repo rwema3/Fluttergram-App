@@ -185,4 +185,7 @@ class _ImagePost extends State<ImagePost> {
                 },
               ),
               subtitle: Text(this.location),
+              trailing: const Icon(Icons.more_vert),
+            );
+          }
 
