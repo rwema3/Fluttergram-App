@@ -239,7 +239,6 @@ class _ImagePost extends State<ImagePost> {
             )
           ],
         ),
-        Row(
 
 
 
