@@ -170,4 +170,6 @@ class _ImagePost extends State<ImagePost> {
             .collection('insta_users')
             .doc(ownerId)
             .get(),
+        builder: (context, snapshot) {
+
 
