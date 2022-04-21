@@ -30,7 +30,7 @@ class ImagePost extends StatefulWidget {
     );
   }
 
-  factory ImagePost.from
+  factory ImagePost.fromJS
     
        
       
