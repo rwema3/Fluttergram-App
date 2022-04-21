@@ -52,7 +52,7 @@ class ImagePost extends StatefulWidget {
     for (var val in vals) {
       if (val == true) {
         count = count + 1;
-      }
+      
     
 
   
