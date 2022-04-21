@@ -130,5 +130,4 @@ class _ImagePost extends State<ImagePost> {
         });
   }
 
-  GestureDetector buildLikeableImage() {
 
