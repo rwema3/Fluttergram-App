@@ -22,8 +22,6 @@ class ImagePost extends StatefulWidget {
       
        
       
-      
-      
     
        
       
