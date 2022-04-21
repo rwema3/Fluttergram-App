@@ -166,5 +166,4 @@ class _ImagePost extends State<ImagePost> {
     }
 
     return FutureBuilder(
-        future: FirebaseFirestore.instance
 
