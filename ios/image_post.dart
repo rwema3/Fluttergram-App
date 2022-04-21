@@ -6,8 +6,6 @@ import 'dart:async';
 import 'profile_page.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'comment_screen.dart';
-import 'package:flare_flutter/flare_actor.dart';
-
     
     
        
