@@ -298,7 +298,6 @@ class _ImagePost extends State<ImagePost> {
   void addActivityFeedItem() {
     FirebaseFirestore.instance
         .collection("insta_a_feed")
-        .doc(ownerId)
 
 
 
