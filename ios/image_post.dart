@@ -184,4 +184,5 @@ class _ImagePost extends State<ImagePost> {
                   openProfile(context, ownerId);
                 },
               ),
+              subtitle: Text(this.location),
 
