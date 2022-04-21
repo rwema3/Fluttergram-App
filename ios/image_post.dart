@@ -259,7 +259,6 @@ class _ImagePost extends State<ImagePost> {
     var userId = googleSignIn.currentUser.id;
     bool _liked = likes[userId] == true;
 
-    if (_liked) {
 
 
 
