@@ -98,4 +98,5 @@ class _ImagePost extends State<ImagePost> {
 
   var reference = FirebaseFirestore.instance.collection('insta_posts');
 
-  _ImagePost
+  _ImagePost(
+      
