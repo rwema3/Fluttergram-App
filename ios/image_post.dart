@@ -234,11 +234,6 @@ class _ImagePost extends State<ImagePost> {
               margin: const EdgeInsets.only(left: 20.0),
               child: Text(
                 "$likeCount likes",
-                style: boldStyle,
-              ),
-            )
-          ],
-        ),
 
 
 
