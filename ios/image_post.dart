@@ -243,6 +243,7 @@ class _ImagePost extends State<ImagePost> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
+                margin: const EdgeInsets.only(left: 20.0),
 
 
 
