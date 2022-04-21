@@ -34,7 +34,7 @@ class ImagePost extends StatefulWidget {
     return ImagePost(
       username: data['username'],
       location: data['location'],
-      mediaUrl: data['
+      mediaUrl: data['m
       
     
        
