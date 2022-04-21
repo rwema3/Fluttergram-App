@@ -266,6 +266,7 @@ class _ImagePost extends State<ImagePost> {
         //firestore plugin doesnt support deleting, so it must be nulled / falsed
       });
 
+      setState(() {
 
 
 
