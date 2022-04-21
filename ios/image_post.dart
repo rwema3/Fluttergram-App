@@ -304,7 +304,6 @@ class _ImagePost extends State<ImagePost> {
         .set({
       "username": currentUserModel.username,
       "userId": currentUserModel.id,
-      "type": "like",
 
 
 
