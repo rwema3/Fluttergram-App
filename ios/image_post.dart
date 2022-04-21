@@ -189,3 +189,4 @@ class _ImagePost extends State<ImagePost> {
             );
           }
 
+          // snapshot data is null here
