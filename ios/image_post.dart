@@ -112,3 +112,4 @@ class _ImagePost extends State<ImagePost> {
     Color color;
     IconData icon;
 
+    if (liked) {
