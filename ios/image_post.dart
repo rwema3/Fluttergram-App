@@ -172,4 +172,5 @@ class _ImagePost extends State<ImagePost> {
             .get(),
         builder: (context, snapshot) {
 
+          if (snapshot.data != null) {
 
