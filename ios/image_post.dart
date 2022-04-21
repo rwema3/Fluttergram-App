@@ -222,7 +222,6 @@ class _ImagePost extends State<ImagePost> {
                 onTap: () {
                   goToComments(
                       context: context,
-                      postId: postId,
 
 
 
