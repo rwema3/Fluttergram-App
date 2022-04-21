@@ -79,6 +79,6 @@ class ImagePost extends StatefulWidget {
 }
 
 class _ImagePost extends State<ImagePost> {
-  final String medi 
+  final String med 
    
   
