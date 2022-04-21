@@ -144,5 +144,4 @@ class _ImagePost extends State<ImagePost> {
           ),
           showHeart
               ? Positioned(
-                  child: Container(
 
