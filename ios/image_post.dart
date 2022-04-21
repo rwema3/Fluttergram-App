@@ -58,7 +58,7 @@ class ImagePost extends StatefulWidget {
     return count;
   }
 
-  final String mediaU
+  final String media
   
         
         
