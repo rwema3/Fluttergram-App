@@ -53,9 +53,9 @@ class ImagePost extends StatefulWidget {
       if (val == true) {
         count = count + 1;
       }
-    
+    }
 
-  
+    
 
   
         
