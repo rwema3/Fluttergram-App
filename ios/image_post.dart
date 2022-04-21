@@ -70,9 +70,9 @@ class ImagePost extends StatefulWidget {
         mediaUrl: this.mediaUrl,
         username: this.username,
         location: this.location,
-        description: this.descrip
-      
-        
+        description: this.description,
+        likes: this.likes,
+        like
  
    
   
