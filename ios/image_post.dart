@@ -210,6 +210,8 @@ class _ImagePost extends State<ImagePost> {
         buildLikeableImage(),
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Padding(padding: const EdgeInsets.only(left: 20.0, top: 40.0)),
 
 
 
