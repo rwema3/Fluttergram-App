@@ -220,7 +220,6 @@ class _ImagePost extends State<ImagePost> {
                   size: 25.0,
                 ),
                 onTap: () {
-                  goToComments(
 
 
 
