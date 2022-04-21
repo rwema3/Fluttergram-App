@@ -101,4 +101,5 @@ class _ImagePost extends State<ImagePost> {
   _ImagePost(
       {this.mediaUrl,
       this.username,
-      this.location
+      this.location,
+  
