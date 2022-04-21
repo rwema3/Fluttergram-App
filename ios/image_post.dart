@@ -263,6 +263,8 @@ class _ImagePost extends State<ImagePost> {
       print('removing like');
       reference.doc(postId).update({
         'likes.$userId': false
+        //firestore plugin doesnt support deleting, so it must be nulled / falsed
+      });
 
 
 
