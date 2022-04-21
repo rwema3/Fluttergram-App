@@ -288,6 +288,7 @@ class _ImagePost extends State<ImagePost> {
         showHeart = true;
       });
       Timer(const Duration(milliseconds: 2000), () {
+        setState(() {
 
 
 
