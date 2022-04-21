@@ -62,7 +62,6 @@ class ImagePost extends StatefulWidget {
   final String username;
   final String location;
   final String description;
-
         
         
         
