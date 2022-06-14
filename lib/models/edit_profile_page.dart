@@ -1,12 +1,3 @@
-
-                )
-              )
-            ],
-          );
-        });
-  }
-
-  void _logout(BuildContext context) async {
     print("logout");
     await auth.signOut();
     await googleSignIn.signOut();
