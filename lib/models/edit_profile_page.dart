@@ -49,24 +49,7 @@ class EditProfilePage extends StatelessWidget {
           ),
         ),
         TextField(
-          controller: controller,
-          decoration: InputDecoration(
-            hintText: name,
-          ),
-        ),
-      ],
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: FirebaseFirestore.instance
-            .collection('insta_users')
-            .doc(currentUserModel.id)
-            .get(),
-        builder: (context, snapshot) {
-          if (
+          cont
                 )
               )
             ],
