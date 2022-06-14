@@ -66,22 +66,7 @@ class EditProfilePage extends StatelessWidget {
             .doc(currentUserModel.id)
             .get(),
         builder: (context, snapshot) {
-          if (!snapshot.hasData)
-            return Container(
-                alignment: FractionalOffset.center,
-                child: CircularProgressIndicator());
-
-          User user = User.fromDocument(snapshot.data);
-
-          nameController.text = user.displayName;
-          bioController.text = user.bio;
-
-          return Column(
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.only(top: 16.0, bottom: 8.0),
-                child: CircleAvatar(
-              
+          if (
                 )
               )
             ],
