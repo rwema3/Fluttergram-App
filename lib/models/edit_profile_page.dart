@@ -88,6 +88,14 @@ class EditProfilePage extends StatelessWidget {
               FlatButton(
                   onPressed: () {
                     changeProfilePhoto(context);
+                  },
+                  child: Text(
+                    "Change Photo",
+                    style: const TextStyle(
+                        color: Colors.blue,
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold),
+                  )),
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
