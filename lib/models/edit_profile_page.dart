@@ -21,6 +21,19 @@ class EditProfilePage extends StatelessWidget {
                     'Changing your profile photo has not been implemented yet'),
               ],
             ),
+          ),
+        );
+      },
+    );
+  }
+
+  applyChanges() {
+    FirebaseFirestore.instance
+        .collection('insta_users')
+        .doc(currentUserModel.id)
+        .update({
+      "displayName": nameController.text,
+      "bio": b
                 )
               )
             ],
