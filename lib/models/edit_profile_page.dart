@@ -88,7 +88,16 @@ class EditProfilePage extends StatelessWidget {
               FlatButton(
                   onPressed: () {
                     changeProfilePhoto(context);
-              
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  children: <Widget>[
+                    buildTextField(name: "Name", controller: nameController),
+                    buildTextField(name: "Bio", controller: bioController),
+                  ],
+                ),
+              ),
+           
                 )
               )
             ],
