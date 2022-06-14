@@ -105,7 +105,12 @@ class EditProfilePage extends StatelessWidget {
                   ],
                 ),
               ),
-           
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: MaterialButton(
+                    onPressed: () => {_logout(context)},
+                    child: Text("Logout")
+
                 )
               )
             ],
