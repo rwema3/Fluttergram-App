@@ -33,23 +33,7 @@ class EditProfilePage extends StatelessWidget {
         .doc(currentUserModel.id)
         .update({
       "displayName": nameController.text,
-      "bio": bioController.text,
-    });
-  }
-
-  Widget buildTextField({String name, TextEditingController controller}) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.only(top: 12.0),
-          child: Text(
-            name,
-            style: TextStyle(color: Colors.grey),
-          ),
-        ),
-        TextField(
-          cont
+      "bio": b
                 )
               )
             ],
