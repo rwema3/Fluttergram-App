@@ -81,13 +81,6 @@ class EditProfilePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 16.0, bottom: 8.0),
                 child: CircleAvatar(
-                  backgroundImage: NetworkImage(currentUserModel.photoUrl),
-                  radius: 50.0,
-                ),
-              ),
-              FlatButton(
-                  onPressed: () {
-                    changeProfilePhoto(context);
               
                 )
               )
