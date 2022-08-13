@@ -4,9 +4,6 @@ import 'main.dart'; //for currentuser & google signin instance
 import 'models/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class EditProfilePage extends StatelessWidget {
-  final TextEditingController nameController = TextEditingController();
-  final TextEditingController bioController = TextEditingController();
 
   changeProfilePhoto(BuildContext parentContext) {
     return showDialog(
