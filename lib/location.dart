@@ -17,7 +17,12 @@ getUserLocation() async {
       error = 'please grant permission';
       print(error);
     }
-
+    if (e.code == 'PERMISSION_DENIED_NEVER_ASK') {
+      error = 'permission denied- please enable it from app settings';
+      print(error);
+    }
+    currentLocation = null;
+  }
   final coordinates = Coordinates(
       currentLocation.latitude, currentLocation.longitude);
   var addresses =
