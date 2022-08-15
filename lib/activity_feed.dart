@@ -4,10 +4,7 @@ import 'image_post.dart'; //needed to open image when clicked
 import 'profile_page.dart'; // to open the profile page when username clicked
 import 'main.dart'; //needed for currentuser id
 
-class ActivityFeedPage extends StatefulWidget {
-  @override
-  _ActivityFeedPageState createState() => _ActivityFeedPageState();
-}
+
 
 class _ActivityFeedPageState extends State<ActivityFeedPage> with AutomaticKeepAliveClientMixin<ActivityFeedPage> {
   @override
