@@ -17,7 +17,9 @@ import 'main.dart'; //needed for currentuser id
                   alignment: FractionalOffset.center,
                   padding: const EdgeInsets.only(top: 10.0),
                   child: CircularProgressIndicator());
-            
+            else {
+              return ListView(children: snapshot.data);
+            }
           }),
     );
   }
