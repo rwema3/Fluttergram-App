@@ -4,6 +4,21 @@ class CreateAccount extends StatefulWidget {
   @override
   _CreateAccountState createState() => _CreateAccountState();
 }
+
+  @override
+  Widget build(BuildContext context2) {
+    return Column(children: [
+      Padding(
+        padding: const EdgeInsets.only(top: 25.0),
+        child: Center(
+          child: Text(
+            "Create a username",
+            style: TextStyle(fontSize: 25.0),
+          ),
+        ),
+      ),
+      Padding(
+        padding: const EdgeInsets.all(16.0),
         child: Container(
           decoration: BoxDecoration(
               border: Border.all(width: 1.0, color: Colors.black26),
