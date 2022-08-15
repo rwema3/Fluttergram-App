@@ -6,22 +6,6 @@ import 'main.dart'; //needed for currentuser id
 
 
 
-class _ActivityFeedPageState extends State<ActivityFeedPage> with AutomaticKeepAliveClientMixin<ActivityFeedPage> {
-  @override
-  Widget build(BuildContext context) {
-    super.build(context); // reloads state when opened again
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Activity Feed",
-          style: TextStyle(color: Colors.black),
-        ),
-        backgroundColor: Colors.white,
-      ),
-      body: buildActivityFeed(),
-    );
-  }
 
   buildActivityFeed() {
     return Container(
