@@ -7,22 +7,7 @@ import 'main.dart'; //needed for currentuser id
 
 
 
-  buildActivityFeed() {
-    return Container(
-      child: FutureBuilder(
-          future: getFeed(),
-          builder: (context, snapshot) {
-            if (!snapshot.hasData)
-              return Container(
-                  alignment: FractionalOffset.center,
-                  padding: const EdgeInsets.only(top: 10.0),
-                  child: CircularProgressIndicator());
-            else {
-              return ListView(children: snapshot.data);
-            }
-          }),
-    );
-  }
+  
 
   getFeed() async {
     List<ActivityFeedItem> items = [];
