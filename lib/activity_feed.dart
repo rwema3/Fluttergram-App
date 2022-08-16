@@ -7,8 +7,7 @@ import 'main.dart'; //needed for currentuser id
 
 
 
-  buildActivityFeed() {
-    return Container(
+
       child: FutureBuilder(
           future: getFeed(),
           builder: (context, snapshot) {
