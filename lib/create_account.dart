@@ -9,6 +9,12 @@ class _CreateAccountState extends State<CreateAccount> {
   final name = TextEditingController();
 
 
+  @override
+  void dispose() {
+    // Clean up the controller when the Widget is removed from the Widget tree
+    name.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context2) {
