@@ -7,16 +7,8 @@ import 'main.dart'; //needed for currentuser id
 
 
 
-  
 
-  getFeed() async {
-    List<ActivityFeedItem> items = [];
-    var snap = await FirebaseFirestore.instance
-        .collection('insta_a_feed')
-        .doc(currentUserModel.id)
-        .collection("items")
-        .orderBy("timestamp")
-        .get();
+
 
     for (var doc in snap.docs) {
       items.add(ActivityFeedItem.fromDocument(doc));
