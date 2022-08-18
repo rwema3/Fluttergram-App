@@ -8,6 +8,19 @@ class CommentScreen extends StatefulWidget {
   final String postOwner;
   final String postMediaUrl;
 
+
+class _CommentScreenState extends State<CommentScreen> {
+  final String postId;
+  final String postOwner;
+  final String postMediaUrl;
+
+  bool didFetchComments = false;
+  List<Comment> fetchedComments = [];
+
+  final TextEditingController _commentController = TextEditingController();
+
+  _CommentScreenState({this.postId, this.postOwner, this.postMediaUrl});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
