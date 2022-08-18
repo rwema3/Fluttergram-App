@@ -10,30 +10,6 @@ class CommentScreen extends StatefulWidget {
 
 
 
-  Widget buildComments() {
-    if (this.didFetchComments == false){
-      return FutureBuilder<List<Comment>>(
-          future: getComments(),
-          builder: (context, snapshot) {
-            if (!snapshot.hasData)
-              return Container(
-                  alignment: FractionalOffset.center,
-                  child: CircularProgressIndicator());
-
-            this.didFetchComments = true;
-            this.fetchedComments = snapshot.data;
-            return ListView(
-              children: snapshot.data,
-            );
-          });
-    } else {
-      // for optimistic updating
-      return ListView(
-        children: this.fetchedComments
-      );
-    }
-  }
-
   Future<List<Comment>> getComments() async {
     List<Comment> comments = [];
 
