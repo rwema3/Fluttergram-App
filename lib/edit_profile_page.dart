@@ -8,24 +8,7 @@ class EditProfilePage extends StatelessWidget {
   final TextEditingController nameController = TextEditingController();
   final TextEditingController bioController = TextEditingController();
 
-  changeProfilePhoto(BuildContext parentContext) {
-    return showDialog(
-      context: parentContext,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Change Photo'),
-          content: SingleChildScrollView(
-            child: ListBody(
-              children: <Widget>[
-                Text(
-                    'Changing your profile photo has not been implemented yet'),
-              ],
-            ),
-          ),
-        );
-      },
-    );
-  }
+
 
   applyChanges() {
     FirebaseFirestore.instance
