@@ -8,20 +8,6 @@ class CommentScreen extends StatefulWidget {
   final String postOwner;
   final String postMediaUrl;
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Comments",
-          style: TextStyle(color: Colors.black),
-        ),
-        backgroundColor: Colors.white,
-      ),
-      body: buildPage(),
-    );
-  }
-
   Widget buildPage() {
     return Column(
       children: [
