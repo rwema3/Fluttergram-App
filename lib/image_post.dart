@@ -8,15 +8,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'comment_screen.dart';
 import 'package:flare_flutter/flare_actor.dart';
 
-class ImagePost extends StatefulWidget {
-  const ImagePost(
-      {this.mediaUrl,
-      this.username,
-      this.location,
-      this.description,
-      this.likes,
-      this.postId,
-      this.ownerId});
+Id});
 
   factory ImagePost.fromDocument(DocumentSnapshot document) {
     return ImagePost(
