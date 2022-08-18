@@ -8,12 +8,6 @@ class CommentScreen extends StatefulWidget {
   final String postOwner;
   final String postMediaUrl;
 
-  @override
-  _CommentScreenState createState() => _CommentScreenState(
-      postId: this.postId,
-      postOwner: this.postOwner,
-      postMediaUrl: this.postMediaUrl);
-}
 
 class _CommentScreenState extends State<CommentScreen> {
   final String postId;
