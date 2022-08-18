@@ -8,25 +8,6 @@ class CommentScreen extends StatefulWidget {
   final String postOwner;
   final String postMediaUrl;
 
-  Widget buildPage() {
-    return Column(
-      children: [
-        Expanded(
-          child:
-            buildComments(),
-        ),
-        Divider(),
-        ListTile(
-          title: TextFormField(
-            controller: _commentController,
-            decoration: InputDecoration(labelText: 'Write a comment...'),
-            onFieldSubmitted: addComment,
-          ),
-          trailing: OutlineButton(onPressed: (){addComment(_commentController.text);}, borderSide: BorderSide.none, child: Text("Post"),),
-        ),
-      ],
-    );
-  }
 
 
   Widget buildComments() {
