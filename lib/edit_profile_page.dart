@@ -6,26 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class EditProfilePage extends StatelessWidget {
   final TextEditingController nameController = TextEditingController();
-  final TextEditingController bioController = TextEditingController();
-
-
-            ),
-          ),
-        );
-      },
-    );
-  }
-
-  applyChanges() {
-    FirebaseFirestore.instance
-        .collection('insta_users')
-        .doc(currentUserModel.id)
-        .update({
-      "displayName": nameController.text,
-      "bio": bioController.text,
-    });
-  }
-
+  
   Widget buildTextField({String name, TextEditingController controller}) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
