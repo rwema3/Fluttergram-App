@@ -4,6 +4,24 @@ import 'image_post.dart'; //needed to open image when clicked
 import 'profile_page.dart'; // to open the profile page when username clicked
 import 'main.dart'; //needed for currentuser id
 
+
+
+
+
+
+
+    for (var doc in snap.docs) {
+      items.add(ActivityFeedItem.fromDocument(doc));
+    }
+    return items;
+  }
+
+  // ensures state is kept when switching pages
+  @override
+  bool get wantKeepAlive => true;
+
+}
+
 class ActivityFeedItem extends StatelessWidget {
   final String username;
   final String userId;
