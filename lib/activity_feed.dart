@@ -4,6 +4,24 @@ import 'image_post.dart'; //needed to open image when clicked
 import 'profile_page.dart'; // to open the profile page when username clicked
 import 'main.dart'; //needed for currentuser id
 
+class ActivityFeedItem extends StatelessWidget {
+  final String username;
+  final String userId;
+  final String
+      type; // types include liked photo, follow user, comment on photo
+  final String mediaUrl;
+  final String mediaId;
+  final String userProfileImg;
+  final String commentData;
+
+  ActivityFeedItem(
+      {this.username,
+      this.userId,
+      this.type,
+      this.mediaUrl,
+      this.mediaId,
+      this.userProfileImg,
+      this.commentData});
 
   factory ActivityFeedItem.fromDocument(DocumentSnapshot document) {
     var data = document.data();
