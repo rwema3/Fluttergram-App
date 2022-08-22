@@ -5,6 +5,11 @@ import 'profile_page.dart'; // to open the profile page when username clicked
 import 'main.dart'; //needed for currentuser id
 
 
+
+
+
+
+
     for (var doc in snap.docs) {
       items.add(ActivityFeedItem.fromDocument(doc));
     }
