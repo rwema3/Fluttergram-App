@@ -16,6 +16,7 @@ import 'main.dart'; //needed for currentuser id
   bool get wantKeepAlive => true;
 
 }
+
 class ActivityFeedItem extends StatelessWidget {
   final String username;
   final String userId;
