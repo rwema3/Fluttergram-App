@@ -6,18 +6,7 @@ import 'dart:io';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class Feed extends StatefulWidget {
-  _Feed createState() => _Feed();
-}
 
-class _Feed extends State<Feed> with AutomaticKeepAliveClientMixin<Feed> {
-  List<ImagePost> feedData;
-
-  @override
-  void initState() {
-    super.initState();
-    this._loadFeed();
-  }
 
   buildFeed() {
     if (feedData != null) {
