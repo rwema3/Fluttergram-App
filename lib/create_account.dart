@@ -11,6 +11,18 @@ class _CreateAccountState extends State<CreateAccount> {
 
 
 
+  @override
+  Widget build(BuildContext context2) {
+    return Column(children: [
+      Padding(
+        padding: const EdgeInsets.only(top: 25.0),
+        child: Center(
+          child: Text(
+            "Create a username",
+            style: TextStyle(fontSize: 25.0),
+          ),
+        ),
+      ),
       Padding(
         padding: const EdgeInsets.all(16.0),
         child: Container(
